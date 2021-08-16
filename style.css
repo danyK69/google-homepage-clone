@@ -46,6 +46,8 @@ nav {
 
 .content{
     text-align: center;
+    
+    height: 76vh;
 }
 
 .content form{
@@ -78,15 +80,57 @@ nav {
 .content form button:hover {
     border: solid 1px rgb(219, 214, 214);
     border-radius: 5px;
+    background: #fff;
 }
 
 .content form .fa{
     color: rgb(189, 183, 183);
     position: absolute;
     left: 30%;
-    top: 34%;
+    top: 35%;
 }
 
+#voice {
+    color: rgb(22, 21, 21);
+    position: absolute;
+    left: 70%;
+    top: 35%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2px;
+    border: 1px solid rgb(206, 205, 205);
+    background: rgb(248, 245, 245);
+    font-size: 14px;
+  }
+  
+  .left-section,
+  .right-section {
+    display: flex;
+  }
+  
+  .right-section {
+    margin-right: 30px;
+  }
+  
+  .footer-link {
+    display: block;
+    padding: 10px 0 10px 30px;
+    text-decoration: none;
+    color: rgb(134, 131, 131);
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
 
 
 
